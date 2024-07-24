@@ -1,0 +1,25 @@
+grep - to extract standard ASCII text from a file - Global Regular Expression print
+
+	-i - case insensitive
+	-w - searching exact words
+	-v - it discards/omits the pattern
+
+pipeline - to redirect the output of a command to the next command specified.
+
+ps - processes running on our system
+ps -e --> to see all the background processes.
+
+man - to know about the documentation of a particular command/service
+example: man command_name
+
+ping - to reach out to the server.
+
+alias - to create a nickname for a particular command 
+Syntax - alias name='command to be given alias'
+to enter .bashrc file --> 1. sudo su
+			  2. nano ~/.bashrc
+		          3. source ~/.bashrc
+
+Example : alias linux='sudo apt-get update'
+
+chmod -- change permission

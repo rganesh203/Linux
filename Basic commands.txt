@@ -1,0 +1,46 @@
+Commands
+
+mkdir - to create new directories
+	mkdir name
+	mkdir name1 name2 
+	
+
+ls-  to list all the files and folders present at that location
+
+cd -  change directory
+	cd nameofdirectory
+	cd .. - to navigate back single directory
+	
+touch - to create empty files, (files with no data)
+	touch filename
+echo -  to enter data single sentence while creating the file.
+
+	echo "your data" > filename
+
+cat - cat filename -> to check data present in the file
+
+nano file - to open editor
+
+copying and moving files and folders.
+
+cp  /home/ubuntu/t1/t13 /home/ubuntu/test1/ ------- to copy files
+cp -r /home/ubuntu/f1/f13 /home/ubuntu/test1/  ------ To copy folders
+
+#mv command - cut paste
+mv /home/ubuntu/f11/ /home/ubuntu/test4/ ---------Move folders and files
+mv /home/ubuntu/f1/f11/  /home/ubuntu/test4/ -       "        "
+
+#delete files and folders
+rm 1.txt 2.txt - remove files
+
+rm -r f2 - if folder not empty
+
+sudo su - to change to root user (to get superuser priveleges)
+
+#installing softwares and packages
+sudo apt-get update - to get minor updates in your system
+
+sudo apt-get install pacakgename - to install a package
+EXAMPLE : sudo apt-get install apache2 - to install apache2 in your system
+sudo apt-get purge apache2
+
