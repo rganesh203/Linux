@@ -513,4 +513,12 @@ pwd --present working directory
 sudo apt-get install putty
 sudo apt-get remove putty
 
+#IOT rasberry pie
+sudo raspi-config
+lsmod | grep i2c
+
+sudo apt-get install i2c-tools
+
+i2cdetect -y 1
+
 
